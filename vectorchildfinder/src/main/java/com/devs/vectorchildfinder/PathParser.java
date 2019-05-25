@@ -287,6 +287,13 @@ public class PathParser {
         /*package*/
         char type;
         float[] params;
+        
+        public float[] getParams(){
+            return params;
+        }
+        public char getType(){
+            return type;
+        }
 
         PathDataNode(char type, float[] params) {
             this.type = type;
